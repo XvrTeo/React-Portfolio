@@ -14,5 +14,5 @@ The portfolio showcases several sections, including a header, a content section,
 
 ### Links:
 
-1. URL of the functional, deployed application: TBD
+1. URL of the functional, deployed application: http://xvrteo.github.io/React-Portfolio
 2. URL of the GitHub repository: https://github.com/XvrTeo/React-Portfolio
