@@ -6,7 +6,7 @@ function Header(props) {
     <header>
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <h2>
-        <a href="React-Portfolio/" style={{ fontSize: "50px", margin: "20px" }}>
+        <a href="./" style={{ fontSize: "50px", margin: "20px" }}>
           Xavier Teo
         </a>
       </h2>

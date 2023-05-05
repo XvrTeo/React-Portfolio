@@ -14,7 +14,7 @@ function App() {
   const [page, setPage] = useState("About me");
 
   const [categories] = useState([
-    { name: "About" },
+    { name: "About Me" },
     { name: "Portfolio" },
     {
       name: "Contact",
@@ -40,10 +40,10 @@ function App() {
 
   return (
     <div>
-      <Header 
-      categories={categories}
-      page={page}
-      setPage={setPage}
+      <Header
+        categories={categories}
+        page={page}
+        setPage={setPage}
       ></Header>
       <main>
         <div>{currentPage(page)}</div>

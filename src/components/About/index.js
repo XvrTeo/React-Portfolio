@@ -24,7 +24,7 @@ function About() {
           ></img>
         </div>
         <div className="col-6">
-          <h1 id="about">About me</h1>
+          <h1 id="about">Hi and welcome!</h1>
           <h6 style={{ width: "80%", justifyContent: "center" }} id="about">
             As a seasoned professional with years of experience in sales and customer success within the tech and marketing industries, I've now decided to pursue an exciting career in software development.
             <br></br><br></br>
