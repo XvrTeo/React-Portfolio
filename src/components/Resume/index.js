@@ -61,7 +61,7 @@ function Proficiencies() {
             <li><FaJsSquare /> JavaScript</li>
             <li><DiJqueryLogo /> jQuery</li>
             <li><FaCode /> Responsive design</li>
-            <li><FaReact /> React <SiReactrouter /> <SiRedux /></li>
+            <li><FaReact /> <SiReactrouter /> <SiRedux /> React </li>
             <li><FaBootstrap /> Bootstrap</li>
           </ul>
         </Col>
@@ -69,7 +69,7 @@ function Proficiencies() {
           <h3><FaNode /> Back-end:</h3>
           <ul className="list-unstyled">
             <li><FaCode /> APIs</li>
-            <li><FaNode /> Node <FaNpm /></li>
+            <li><FaNode /> <FaNpm /> Node</li>
             <li><FaCode /> Express</li>
             <li><SiMysql /> MySQL, Sequelize</li>
             <li><DiMongodb /> MongoDB, Mongoose</li>
