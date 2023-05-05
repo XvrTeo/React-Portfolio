@@ -2,30 +2,19 @@ import React from "react";
 import Nav from "../Navigation";
 
 function Header(props) {
-  // const [categories] = useState([
-  //   { name: "About me" },
-  //   { name: "Portfolio" },
-  //   {
-  //     name: "Contact",
-  //   },
-  //   {
-  //     name: "Resume",
-  //   },
-  // ]);
-
-  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
   return (
     <header>
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <h2>
         <a href="React-Portfolio/" style={{ fontSize: "50px", margin: "20px" }}>
           Xavier Teo
         </a>
       </h2>
-      <Nav categories= {props.categories}
-            page={props.page}
-            setPage={props.setPage}/>
+      <Nav
+        categories={props.categories}
+        page={props.page}
+        setPage={props.setPage}
+      />
     </header>
   );
 }

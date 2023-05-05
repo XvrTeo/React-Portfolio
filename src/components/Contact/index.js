@@ -1,66 +1,44 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
-function ContactForm() {
-  // Hook that manages form data
-  //   initialize values of state, clear input fields on loading component
-  const [formState, setFormState] = useState({
+const ContactForm = () => {
+  const initialFormState = {
     name: "",
     email: "",
     message: "",
-  });
+  };
 
-  // Hook that manages email error message
+  const [formState, setFormState] = useState(initialFormState);
   const [errorMessage, setErrorMessage] = useState("");
-  // destructure formState obj into its properties
-  const { name, email, message } = formState;
 
-  function handleSubmit(e) {
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    const newState = { ...formState, [name]: value };
+
+    if (name === "email") {
+      const isValid = validateEmail(value);
+      setErrorMessage(isValid ? "" : "Your email is invalid.");
+    } else {
+      setErrorMessage(value.length ? "" : `${name} is required.`);
+    }
+
+    setFormState(newState);
+  };
+
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    // state only updates if form data passed quality tests(no err message)
     if (!errorMessage) {
-      //   async setFormState updates formState value for name
-      //   assign input field value to formState.name
-      // spread operator ...formState retains other key-value pairs in obj
-      // e.target.name is name attribute of form element, matches prop names of formState(name, email, message)
-      setFormState({ ...formState, [e.target.name]: e.target.value });
       console.log("Form", formState);
+      setFormState(initialFormState);
     }
-  }
+  };
 
-  //   sync internal state of component formState with user input from DOM
-  // onBlur or onChange event listener ensures this fires everytime keystroke typed into name field
-  // function handleChange(e) {
-  //   // if <input> is email, validate value with validateEmail, assign to isValid
-  //   if (e.target.name === "email") {
-  //     const isValid = validateEmail(e.target.value);
-  //     console.log(isValid);
-  //     // isValid conditional statement
-  //     if (!isValid) {
-  //       setErrorMessage("Your email is invalid.");
-  //     } else {
-  //       setErrorMessage("");
-  //     }
-  //     // if <input> is message and name form elements
-  //   } else {
-  //     // if blank, error message
-  //     if (!e.target.value.length) {
-  //       setErrorMessage(`${e.target.name} is required.`);
-  //     } else {
-  //       setErrorMessage("");
-  //     }
-  //   }
-
-  //   // console.log("errorMessage", errorMessage);
-  // }
-
-  // JSX DOM elements
   return (
     <section>
       <h1 data-testid="h1tag">Contact me</h1>
       <a href="mailto:xvrteo@gmail.com">@xvrteo@gmail.com</a>
-      {/* <br></br>
+      <br />
       <h1 data-testid="h1tag">Leave a Message</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
@@ -68,8 +46,8 @@ function ContactForm() {
           <input
             type="text"
             name="name"
-            defaultValue={name}
-            onBlur={handleChange}
+            value={formState.name}
+            onChange={handleInputChange}
           />
         </div>
         <div>
@@ -77,8 +55,8 @@ function ContactForm() {
           <input
             type="email"
             name="email"
-            defaultValue={email}
-            onBlur={handleChange}
+            value={formState.email}
+            onChange={handleInputChange}
           />
         </div>
         <div>
@@ -86,26 +64,17 @@ function ContactForm() {
           <textarea
             name="message"
             rows="5"
-            defaultValue={message}
-            onBlur={handleChange}
+            value={formState.message}
+            onChange={handleInputChange}
           />
-        </div> */}
-        {/* if(errorMessage) {
-            <div>
-                <p className="error-text">{errorMessage}</p>
-            </div>
-        } */}
-        {/* {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
+        </div>
+        {errorMessage && <p className="error-text">{errorMessage}</p>}
         <button data-testid="button" type="submit">
           Submit
         </button>
-      </form> */}
+      </form>
     </section>
   );
-}
+};
 
 export default ContactForm;

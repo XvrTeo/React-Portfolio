@@ -1,125 +1,80 @@
 import React from "react";
-// updated resume with material advisor feedback
-// import resumePDF from "../../assets/resumePDF.pdf";
-import DevResume from "../../assets/DevResume.pdf";
-import {
-  FaGitAlt,
-  FaGithub,
-  FaHtml5,
-  FaCss3Alt,
-  FaJsSquare,
-  FaBootstrap,
-  FaNode,
-  FaReact,
-  FaNpm,
-} from "react-icons/fa";
+import { FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaJsSquare, FaBootstrap, FaNode, FaReact, FaNpm } from "react-icons/fa";
 import { DiJqueryLogo, DiMongodb } from "react-icons/di";
-import {
-  SiMysql,
-  SiHeroku,
-  SiWebpack,
-  SiRedux,
-  SiReactrouter,
-  SiGraphql,
-} from "react-icons/si";
+import { SiMysql, SiHeroku, SiWebpack, SiRedux, SiReactrouter, SiGraphql } from "react-icons/si";
 import { Container, Row, Col } from "react-bootstrap";
+import DevResume from "../../assets/DevResume.pdf";
 
 function Resume() {
   return (
-    <Container className="container my-5">
-      <h1>Proficiencies</h1>
-      <br></br>
-      <br></br>
+    <Container className="my-5">
+      <h1 className="text-center mb-5">Proficiencies</h1>
+
       <Row>
-        <br></br>
-        <Col>
-          <h5>
-            • GitHub <FaGithub />
-          </h5>
-          <h5>
-            • Git <FaGitAlt />
-          </h5>
-          <h5>
-            • Heroku <SiHeroku />
-          </h5>
-          <h5>
-            • Webpack <SiWebpack />
-          </h5>
-          <br></br>
-          <a href={DevResume} target="_blank" rel="noreferrer">
-            <h5>Check out my resume!</h5>
+        <Col xs={12} md={4} className="mb-4">
+          <h3><FaGithub /> Tools:</h3>
+          <ul className="list-unstyled">
+            <li>
+              <FaGitAlt /> Git
+            </li>
+            <li>
+              <SiHeroku /> Heroku
+            </li>
+            <li>
+              <SiWebpack /> Webpack
+            </li>
+          </ul>
+          <a href={DevResume} target="_blank" rel="noreferrer" className="btn btn-primary">
+            View Resume
           </a>
         </Col>
 
-        <Col>
-          <h3 id="resume">Front-end:</h3>
-          <br></br>
-          <h5>
-            • HTML
-            <FaHtml5 />
-          </h5>
-          <h5>
-            • CSS
-            <FaCss3Alt />
-          </h5>
-          <h5>
-            • JavaScript
-            <FaJsSquare />
-          </h5>
-          <h5>
-            • jQuery
-            <DiJqueryLogo />
-          </h5>
-          <h5>• Responsive design</h5>
-          <h5>
-            • React
-            <FaReact /> <SiReactrouter /> <SiRedux />
-          </h5>
-          <h5>
-            • Boostrap
-            <FaBootstrap />
-          </h5>
+        <Col xs={12} md={4} className="mb-4">
+          <h3><FaHtml5 /> Front-end:</h3>
+          <ul className="list-unstyled">
+            <li>
+              <FaHtml5 /> HTML
+            </li>
+            <li>
+              <FaCss3Alt /> CSS
+            </li>
+            <li>
+              <FaJsSquare /> JavaScript
+            </li>
+            <li>
+              <DiJqueryLogo /> jQuery
+            </li>
+            <li>Responsive design</li>
+            <li>
+              <FaReact /> React <SiReactrouter /> <SiRedux />
+            </li>
+            <li>
+              <FaBootstrap /> Bootstrap
+            </li>
+          </ul>
         </Col>
 
-        <Col>
-          <h3 id="resume">Back-end:</h3>
-          <br></br>
-          <h5>• APIs</h5>
-          <h5>
-            • Node
-            <FaNode /> <FaNpm />
-          </h5>
-          <h5>• Express</h5>
-          <h5>
-            • MySQL, Sequelize <SiMysql />
-          </h5>
-          <h5>
-            • MongoDB, Mongoose
-            <DiMongodb />
-          </h5>
-          <h5>• REST</h5>
-          <h5>
-            • GraphQL
-            <SiGraphql />
-          </h5>
+        <Col xs={12} md={4} className="mb-4">
+          <h3><FaNode /> Back-end:</h3>
+          <ul className="list-unstyled">
+            <li>APIs</li>
+            <li>
+              <FaNode /> Node <FaNpm />
+            </li>
+            <li>Express</li>
+            <li>
+              <SiMysql /> MySQL, Sequelize
+            </li>
+            <li>
+              <DiMongodb /> MongoDB, Mongoose
+            </li>
+            <li>REST</li>
+            <li>
+              <SiGraphql /> GraphQL
+            </li>
+          </ul>
         </Col>
       </Row>
-
-      <script
-        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"
-      ></script>
     </Container>
   );
 }

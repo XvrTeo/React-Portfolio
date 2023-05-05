@@ -65,14 +65,6 @@ const Portfolio = (singleProject) => {
       github: "https://github.com/XvrTeo/weather-dashboard",
     },
     {
-      title: "Work Day Scheduler",
-      summary: "This is a work day planner based on standard business hours where the current date and time are displayed. The timeblocks are color-coded to indicate whether an event is in the past, present or future. The entered schedule is then saved in local storage upon clicking the save button and persists even when the page is refreshed.",
-      image: workdayscheduler,
-      technologies: "HTML, JavaScript, CSS",
-      deployedLink: "https://xvrteo.github.io/Work-Day-Scheduler/",
-      github: "https://github.com/XvrTeo/Work-Day-Scheduler",
-    },
-    {
       title: "E-commerce Backend",
       summary: "This is a MySQL database and application backend for an e-commerce site.",
       image: ecommerce,
@@ -87,6 +79,14 @@ const Portfolio = (singleProject) => {
       technologies: "Node",
       deployedLink: "https://youtu.be/Ymf3Idg4KpY",
       github: "https://github.com/XvrTeo/Team-Profile-Generator",
+    },
+    {
+      title: "Work Day Scheduler",
+      summary: "This is a work day planner based on standard business hours where the current date and time are displayed. The timeblocks are color-coded to indicate whether an event is in the past, present or future. The entered schedule is then saved in local storage upon clicking the save button and persists even when the page is refreshed.",
+      image: workdayscheduler,
+      technologies: "HTML, JavaScript, CSS",
+      deployedLink: "https://xvrteo.github.io/Work-Day-Scheduler/",
+      github: "https://github.com/XvrTeo/Work-Day-Scheduler",
     }
   ];
 

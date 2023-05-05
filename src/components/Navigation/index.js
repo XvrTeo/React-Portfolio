@@ -36,9 +36,8 @@ function Nav(props) {
                   onClick={() => {
                     props.setPage(category.name);
                   }}
-                  className={`mx-1 ${
-                    props.page === category.name && "navActive"
-                  }`}
+                  className={`mx-1 ${props.page === category.name && "navActive"
+                    }`}
                 >
                   {category.name}
                 </a>
