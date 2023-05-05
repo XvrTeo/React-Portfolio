@@ -12,6 +12,8 @@ The portfolio showcases several sections, including a header, a content section,
 
 ![Screenshot 3](./src/assets/img/Screenshot3.jpg)
 
+![Screenshot 4](./src/assets/img/Screenshot4.jpg)
+
 ### Links:
 
 1. URL of the functional, deployed application: http://xvrteo.github.io/React-Portfolio
