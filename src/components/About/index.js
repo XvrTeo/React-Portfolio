@@ -34,26 +34,22 @@ const About = () => {
               color: "#555",
             }}
           >
-            As a seasoned professional with years of experience in sales and
-            customer success within the tech and marketing industries, I've now
-            decided to pursue an exciting career in software development.
+            Having accumulated years of experience in sales and customer success within the tech, marketing and media
+            industries, I recently embarked on an exciting career transition into software development. Currently, I
+            am actively participating in UC Berkeley Extension's intensive software development bootcamp, where I
+            have
+            been refining my skills in Node, MySQL, MongoDB, React, jQuery, REST, and GraphQL. This comprehensive
+            program
+            has provided me with practical expertise in web development, databases, and a wide range of development
+            tools and frameworks.
             <br />
             <br />
-            I am currently in an intensive software development bootcamp and
-            have honed my skills in programming languages such as Node, MySQL,
-            MongoDB, React, jQuery, REST, and GraphQL. Additionally, I gained
-            hands-on experience in web development, databases, and various
-            development tools and frameworks.
-            <br />
-            <br />
-            My prior experience in sales and customer success has instilled in
-            me valuable soft skills such as effective communication,
-            collaboration, and problem-solving. As a developer, I'm able to
-            leverage these skills to create effective and efficient solutions
-            that exceed client expectations. I'm eager to continue learning and
-            growing in the field of software development, and I'm confident that
-            my unique skill set and diverse experience will enable me to make
-            meaningful contributions to any project or team.
+            Drawing from my extensive experience in sales and customer success, I have honed invaluable soft skills,
+            such as exceptional communication, collaborative prowess, and adept problem-solving abilities. As a
+            developer, I leverage these strengths to consistently deliver effective and efficient solutions that
+            surpass client expectations. Fueled by a robust drive for continuous learning and growth in the software
+            development field, complemented by my distinct skill set and diverse background, I am fully confident in
+            my capacity to make valuable contributions to any project or team.
             <br />
           </p>
           <br />

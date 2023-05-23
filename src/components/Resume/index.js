@@ -92,6 +92,9 @@ function Education() {
             <li>
               <FaUniversity /> Bachelor of Arts in Mass Communications, University of California, Berkeley
             </li>
+            <li>
+              <FaCertificate /> Full Stack Coding Bootcamp, UC Berkeley Extension, May 2023
+            </li>
           </ul>
         </Col>
       </Row>
