@@ -12,6 +12,14 @@ import team from "../../assets/img/team.gif";
 
 const projectList = [
   {
+    title: "Fantastic Beasts and How to Buy Them",
+    summary: "This is an e-commerce platform that helps users find and purchase mythical creatures.",
+    image: fantastic,
+    technologies: "React.js, MongoDB, Mongoose, Node.js, Express.js, GraphQL, MongoDB Atlas, IndexedDB, PWA, JWT, Material UI, EmailJS, Stripe, Heroku",
+    deployedLink: "https://fantastic-beasts.herokuapp.com/",
+    github: "https://github.com/ikaera/Dream-Project",
+  },
+  {
     title: "Spiral Travel",
     summary: "Spiral Travel is a user-friendly application that allows travelers to share their experiences and explore those of others. With its intuitive interface and seamless integration with the Pexels API, users can easily create and publish engaging travel stories.",
     image: spiral,
