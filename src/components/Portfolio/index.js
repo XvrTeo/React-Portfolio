@@ -9,6 +9,7 @@ import weatherdashboard from "../../assets/img/weatherdashboard.gif";
 import workdayscheduler from "../../assets/img/workdayscheduler.gif";
 import ecommerce from "../../assets/img/ecommerce.jpg";
 import team from "../../assets/img/team.gif";
+import fantastic from "../../assets/img/fantastic.jpg";
 
 const projectList = [
   {
