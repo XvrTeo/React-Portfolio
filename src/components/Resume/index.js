@@ -108,8 +108,7 @@ function Resume() {
     <>
       <Proficiencies />
       <Education />
-      <div className="fixed-bottom text-end pe-3 pb
--3">
+      <div className="fixed-bottom text-end pe-3 pb-3">
         <a href="https://sbr.com.sg/media-marketing/commentary/untapping-social-media-potential" target="_blank" rel="noreferrer">"Untapping the social media potential" in the Singapore Business Review</a>
       </div>
     </>
