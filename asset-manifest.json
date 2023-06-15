@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.395cb5b7.css",
-    "main.js": "/React-Portfolio/static/js/main.e11604f2.js",
+    "main.js": "/React-Portfolio/static/js/main.cd1e95dc.js",
     "static/js/787.4048b011.chunk.js": "/React-Portfolio/static/js/787.4048b011.chunk.js",
+    "static/media/spiral.gif": "/React-Portfolio/static/media/spiral.f33fc3aa3238f1983868.gif",
+    "static/media/fantastic.gif": "/React-Portfolio/static/media/fantastic.cc0ede3b113fccb80ff1.gif",
     "static/media/brewmap.gif": "/React-Portfolio/static/media/brewmap.2644a710ae614433f395.gif",
     "static/media/techblog.gif": "/React-Portfolio/static/media/techblog.66a8a7e6a557cb237365.gif",
+    "static/media/portfolio.gif": "/React-Portfolio/static/media/portfolio.76dc80ef51b1aa0f779b.gif",
     "static/media/notetaker.gif": "/React-Portfolio/static/media/notetaker.837935252000f5938e3f.gif",
     "static/media/team.gif": "/React-Portfolio/static/media/team.54dd7c993c3cd9b39a8e.gif",
-    "static/media/fantastic.jpg": "/React-Portfolio/static/media/fantastic.35d9f5028450658f043d.jpg",
-    "static/media/spiral.jpg": "/React-Portfolio/static/media/spiral.5aec4b26bcbd9f570090.jpg",
     "static/media/weatherdashboard.gif": "/React-Portfolio/static/media/weatherdashboard.293fb161a86d36d1aee2.gif",
     "static/media/workdayscheduler.gif": "/React-Portfolio/static/media/workdayscheduler.b78e22b4d1741bb6449d.gif",
     "static/media/quiz.gif": "/React-Portfolio/static/media/quiz.978331cdd94c5ca07dad.gif",
     "static/media/ecommerce.jpg": "/React-Portfolio/static/media/ecommerce.2bd0350812e6f7eb9a60.jpg",
-    "static/media/DevResume.pdf": "/React-Portfolio/static/media/DevResume.d12a7d948baf17d564bd.pdf",
+    "static/media/DevResume.pdf": "/React-Portfolio/static/media/DevResume.b17b009daff8be985ec7.pdf",
     "static/media/PortfolioImage.jpg": "/React-Portfolio/static/media/PortfolioImage.e6be2dccc0ac292736cf.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.395cb5b7.css.map": "/React-Portfolio/static/css/main.395cb5b7.css.map",
-    "main.e11604f2.js.map": "/React-Portfolio/static/js/main.e11604f2.js.map",
+    "main.cd1e95dc.js.map": "/React-Portfolio/static/js/main.cd1e95dc.js.map",
     "787.4048b011.chunk.js.map": "/React-Portfolio/static/js/787.4048b011.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.395cb5b7.css",
-    "static/js/main.e11604f2.js"
+    "static/js/main.cd1e95dc.js"
   ]
 }
