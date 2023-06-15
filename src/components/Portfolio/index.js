@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "../../components/Project";
-import spiral from "../../assets/img/spiral.jpg";
+import spiral from "../../assets/img/spiral.gif";
 import brewmap from "../../assets/img/brewmap.gif";
 import quiz from "../../assets/img/quiz.gif";
 import techblog from "../../assets/img/techblog.gif";
@@ -9,7 +9,8 @@ import weatherdashboard from "../../assets/img/weatherdashboard.gif";
 import workdayscheduler from "../../assets/img/workdayscheduler.gif";
 import ecommerce from "../../assets/img/ecommerce.jpg";
 import team from "../../assets/img/team.gif";
-import fantastic from "../../assets/img/fantastic.jpg";
+import fantastic from "../../assets/img/fantastic.gif";
+import portfolio from "../../assets/img/portfolio.gif";
 
 const projectList = [
   {
@@ -35,6 +36,15 @@ const projectList = [
     technologies: "JavaScript, Open Brewery DB, Leaflet, Materialize CSS",
     deployedLink: "https://jsrra.github.io/Booze-Hound/",
     github: "https://github.com/Jsrra/Booze-Hound",
+  },
+  {
+    title: "Portfolio Website",
+    summary:
+      "This is a portfolio website developed using HTML and CSS. Its main objective is to serve as a platform for showcasing my work and providing potential employers with information about me. The website incorporates HTML and CSS to create a visually appealing and interactive experience, highlighting my skills and accomplishments.",
+    image: portfolio,
+    technologies: "HTML, CSS",
+    deployedLink: "https://xvrteo.github.io/Portfolio-Website/",
+    github: "https://github.com/XvrTeo/Portfolio-Website",
   },
   {
     title: "Code Quiz",
