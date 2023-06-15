@@ -15,7 +15,7 @@ import portfolio from "../../assets/img/portfolio.gif";
 const projectList = [
   {
     title: "Fantastic Beasts and How to Buy Them",
-    summary: "This is an e-commerce platform that helps users find and purchase mythical creatures.",
+    summary: "E-commerce platform using the MERN stack, offering a unique experience for users to discover and purchase mythical creatures, and provides a seamless and responsive interface for browsing and acquiring these extraordinary beings.",
     image: fantastic,
     technologies: "React.js, MongoDB, Mongoose, Node.js, Express.js, GraphQL, MongoDB Atlas, IndexedDB, PWA, JWT, Material UI, EmailJS, Stripe, Heroku",
     deployedLink: "https://fantastic-beasts.herokuapp.com/",
