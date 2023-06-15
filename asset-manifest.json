@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.395cb5b7.css",
-    "main.js": "/React-Portfolio/static/js/main.cd1e95dc.js",
+    "main.js": "/React-Portfolio/static/js/main.e543c902.js",
     "static/js/787.4048b011.chunk.js": "/React-Portfolio/static/js/787.4048b011.chunk.js",
     "static/media/spiral.gif": "/React-Portfolio/static/media/spiral.f33fc3aa3238f1983868.gif",
     "static/media/fantastic.gif": "/React-Portfolio/static/media/fantastic.cc0ede3b113fccb80ff1.gif",
@@ -14,15 +14,15 @@
     "static/media/workdayscheduler.gif": "/React-Portfolio/static/media/workdayscheduler.b78e22b4d1741bb6449d.gif",
     "static/media/quiz.gif": "/React-Portfolio/static/media/quiz.978331cdd94c5ca07dad.gif",
     "static/media/ecommerce.jpg": "/React-Portfolio/static/media/ecommerce.2bd0350812e6f7eb9a60.jpg",
-    "static/media/DevResume.pdf": "/React-Portfolio/static/media/DevResume.b17b009daff8be985ec7.pdf",
+    "static/media/DevResume.pdf": "/React-Portfolio/static/media/DevResume.8cb5f4b88d057ed55f53.pdf",
     "static/media/PortfolioImage.jpg": "/React-Portfolio/static/media/PortfolioImage.e6be2dccc0ac292736cf.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.395cb5b7.css.map": "/React-Portfolio/static/css/main.395cb5b7.css.map",
-    "main.cd1e95dc.js.map": "/React-Portfolio/static/js/main.cd1e95dc.js.map",
+    "main.e543c902.js.map": "/React-Portfolio/static/js/main.e543c902.js.map",
     "787.4048b011.chunk.js.map": "/React-Portfolio/static/js/787.4048b011.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.395cb5b7.css",
-    "static/js/main.cd1e95dc.js"
+    "static/js/main.e543c902.js"
   ]
 }
